@@ -1,0 +1,170 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8em;
+}
+
+.logo span {
+  color: #4CAF50;
+}
+
+nav {
+  background-color: #4CAF50;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.content {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.post {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post h2 {
+  color: #4CAF50;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.sidebar h3 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.sidebar input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  background: white;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.contact-form {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+/* Modo Escuro */
+.dark-mode {
+  background-color: #121212;
+  color: #ddd;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #333;
+}
+
+.dark-mode .post,
+.dark-mode .sidebar ul li,
+.dark-mode .contact-form {
+  background-color: #222;
+}
+
+.dark-mode .post h2,
+.dark-mode .read-more,
+.dark-mode .sidebar h3,
+.dark-mode .logo span {
+  color: #4CAF50;
+}
